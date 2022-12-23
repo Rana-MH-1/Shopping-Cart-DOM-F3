@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b9a0719e01.js" crossorigin="anonymous"></script>
+    
+    <title>Shopping cart</title>
+    
+
+</head>
+<body>
+  <header>
+    <h2>Shopping cart</h2>
+  </header>
+  
+
+   <section class="shopping-cart">
+        <!-- Item #1 -->
+        <div class="item">
+            <button class="delete-btn" type="button">X</button>
+            <i class="fas fa-heart"></i>
+            <img class="product1" src="images/Black-soap.jpg">
+            <span class="description">Black Soap</span>
+            <button class="plus-btn" type="button">+</button>
+            <span class="Quantity">1</span>
+            <button class="sustraction-btn" type="button">-</button>
+            <span class="Prix_unitaire">20</span>
+            <span class="amount">Amount(TD):</span>
+            <span class="price" id="p1">20 </span>
+        </div>
+
+         <hr>
+        <!-- Item #2 -->
+        <div class="item">
+            <button class="delete-btn" type="button">X</button>
+            <i class="fas fa-heart"></i>
+            <img class="product1" src="images/Honey-soap.webp">
+            <span class="description">Honey Soap </span>
+            <button class="plus-btn">+</button>
+            <p class="Quantity">1</p>
+            <button class="sustraction-btn" type="button">-</button>
+            <span class="Prix_unitaire">15</span>
+            <span class="amount">Amount(TD):</span>
+            <span class="price" id="p2">15 </span>
+
+
+        </div>
+
+         <hr>
+        <!-- Item #3 -->
+        <div class="item">
+            <button class="delete-btn">X</button>
+            <i class="fas fa-heart"></i>
+            <img class="product1" src="images/Lavender-soap.webp">
+            <span class="description">Lavendar Soap  </span>
+            <button class="plus-btn" type="button">+</button>
+            <span class="Quantity">1</span>
+          
+            <button class="sustraction-btn">-</button>
+            <span class="Prix_unitaire">25</span>
+            <span class="amount">Amount(TD):</span>
+            <span class="price" id="p3">25 </span>
+
+        </div>
+
+        
+  </section>
+  <span id="TP">Total price = <span id="total-price"> 60 </span><span id="TD">TD</span>
+  <script src="./script.js"></script>
+</body>
+</html>
